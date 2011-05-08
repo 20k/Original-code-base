@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Planets - rewrite" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Bin\Planets - rewrite" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Planets - rewrite" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\MinGW\include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32" />
+			<Add option="-lsfml-audio" />
+			<Add option="-lsfml-graphics" />
+			<Add option="-lsfml-network" />
+			<Add option="-lsfml-window" />
+			<Add option="-luser32" />
+			<Add option="-lgdi32" />
+			<Add option="-lwinmm" />
+			<Add option="-ldxguid" />
+			<Add option="-lglu32" />
+			<Add option="-lglew32" />
+			<Add option="-lopengl32" />
+			<Add library="mingw32" />
+			<Add library="sfml-audio" />
+			<Add library="sfml-graphics" />
+			<Add library="sfml-network" />
+			<Add library="sfml-system" />
+			<Add library="sfml-window" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="C:\MinGW\lib\libglu32.a" />
+			<Add library="C:\MinGW\lib\libglew32.a" />
+			<Add library="C:\MinGW\lib\libopengl32.a" />
+			<Add directory="C:\MinGW\lib" />
+		</Linker>
+		<Unit filename="Common\Common.hpp" />
+		<Unit filename="Engine\Engine.cpp">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="Engine\Engine.hpp" />
+		<Unit filename="Image\Image.cpp" />
+		<Unit filename="Image\Image.hpp" />
+		<Unit filename="Minimap\Minimap.cpp" />
+		<Unit filename="Minimap\Minimap.hpp" />
+		<Unit filename="PerlinNoise\CosineInterpolate.hpp" />
+		<Unit filename="PerlinNoise\Header.hpp" />
+		<Unit filename="PerlinNoise\InterpolatedArray_Mem.hpp" />
+		<Unit filename="PerlinNoise\Noise.hpp" />
+		<Unit filename="PerlinNoise\PerlinNoise_Mem.hpp" />
+		<Unit filename="PerlinNoise\Smooth.hpp" />
+		<Unit filename="PlanetHandler\PlanetHandler.cpp" />
+		<Unit filename="PlanetHandler\PlanetHandler.hpp" />
+		<Unit filename="Planet\Planet.cpp" />
+		<Unit filename="Planet\Planet.hpp" />
+		<Unit filename="Prngs\rand.cpp" />
+		<Unit filename="Prngs\rand.hpp" />
+		<Unit filename="SSystem\SSystem.cpp" />
+		<Unit filename="SSystem\SSystem.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

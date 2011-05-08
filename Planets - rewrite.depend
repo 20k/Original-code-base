@@ -1,0 +1,889 @@
+# depslib dependency file v1.0
+1304364854 source:c:\users\james\desktop\planets - rewrite\image\image.cpp
+	"Image.hpp"
+	"../Common/Common.hpp"
+
+1304364925 c:\users\james\desktop\planets - rewrite\image\image.hpp
+	<SFML/Graphics.hpp>
+	"../Common/Common.hpp"
+
+1264607642 c:\mingw\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PostFX.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/String.hpp>
+	<SFML/Graphics/View.hpp>
+
+1264607642 c:\mingw\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Input.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowListener.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/OpenGL.hpp>
+
+1264607642 c:\mingw\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Randomizer.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Unicode.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1264607642 c:\mingw\include\sfml\config.hpp
+	<climits>
+
+1264607636 c:\mingw\include\sfml\system\clock.hpp
+	<SFML/Config.hpp>
+
+1264607636 c:\mingw\include\sfml\system\lock.hpp
+	<SFML/System/NonCopyable.hpp>
+
+1264607636 c:\mingw\include\sfml\system\noncopyable.hpp
+	<SFML/Config.hpp>
+
+1264607636 c:\mingw\include\sfml\system\mutex.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Win32/Mutex.hpp>
+	<SFML/System/Unix/Mutex.hpp>
+
+1264607636 c:\mingw\include\sfml\system\win32\mutex.hpp
+	<SFML/System/NonCopyable.hpp>
+	<windows.h>
+
+1282952430 c:\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1282952430 c:\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1282952431 c:\mingw\include\winuser.h
+
+1282952430 c:\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1282952430 c:\mingw\include\winerror.h
+
+1267932703 c:\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1267932699 c:\mingw\include\_mingw.h
+
+1282952420 c:\mingw\include\basetsd.h
+
+1282952426 c:\mingw\include\pshpack4.h
+
+1282952426 c:\mingw\include\poppack.h
+
+1282952431 c:\mingw\include\winver.h
+
+1282952420 c:\mingw\include\dde.h
+
+1282952420 c:\mingw\include\dlgs.h
+
+1282952420 c:\mingw\include\commctrl.h
+	<prsht.h>
+
+1282952426 c:\mingw\include\prsht.h
+
+1282952430 c:\mingw\include\windef.h
+	<winnt.h>
+
+1282952429 c:\mingw\include\wincon.h
+
+1282952429 c:\mingw\include\winbase.h
+
+1282952430 c:\mingw\include\wingdi.h
+
+1282952430 c:\mingw\include\winnls.h
+
+1282952430 c:\mingw\include\winnetwk.h
+
+1282952430 c:\mingw\include\winreg.h
+
+1282952431 c:\mingw\include\winsvc.h
+
+1282952420 c:\mingw\include\cderr.h
+
+1282952420 c:\mingw\include\ddeml.h
+
+1282952422 c:\mingw\include\imm.h
+
+1282952424 c:\mingw\include\lzexpand.h
+
+1282952424 c:\mingw\include\mmsystem.h
+
+1282952424 c:\mingw\include\nb30.h
+
+1282952427 c:\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1282952427 c:\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1298290886 c:\mingw\include\basetyps.h
+
+1282952427 c:\mingw\include\rpcdcep.h
+
+1282952427 c:\mingw\include\rpcnsi.h
+
+1282952427 c:\mingw\include\rpcnterr.h
+
+1267932701 c:\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1282952428 c:\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1282952426 c:\mingw\include\pshpack2.h
+
+1282952430 c:\mingw\include\winperf.h
+
+1282952420 c:\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1282952429 c:\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1282952425 c:\mingw\include\objfwd.h
+	<basetyps.h>
+
+1282952431 c:\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1282952427 c:\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1282952427 c:\mingw\include\rpcnsip.h
+
+1282952430 c:\mingw\include\winspool.h
+
+1282952430 c:\mingw\include\winsock2.h
+	<windows.h>
+
+1282952430 c:\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1282952424 c:\mingw\include\mswsock.h
+
+1282952425 c:\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1282952425 c:\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1267932703 c:\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1282952425 c:\mingw\include\objidl.h
+	<objfwd.h>
+
+1282952420 c:\mingw\include\cguid.h
+
+1282952426 c:\mingw\include\olectlid.h
+
+1282952426 c:\mingw\include\oleauto.h
+	<oaidl.h>
+
+1282952425 c:\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1282952426 c:\mingw\include\oleidl.h
+	<objfwd.h>
+
+1264607634 c:\mingw\include\sfml\system\unix\mutex.hpp
+	<SFML/System/NonCopyable.hpp>
+	<pthread.h>
+
+1255997302 c:\mingw\include\pthread.h
+	<windows.h>
+	"config.h"
+	<time.h>
+	<signal.h>
+	<setjmp.h>
+	<limits.h>
+	"need_errno.h"
+	<errno.h>
+	<sched.h>
+	<sys/types.h>
+
+1267932703 c:\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1267932703 c:\mingw\include\signal.h
+	<_mingw.h>
+
+1267932702 c:\mingw\include\setjmp.h
+	<_mingw.h>
+
+1267932702 c:\mingw\include\limits.h
+	<_mingw.h>
+
+1267932701 c:\mingw\include\errno.h
+	<_mingw.h>
+
+1255997302 c:\mingw\include\sched.h
+	"need_errno.h"
+	<errno.h>
+	<sys/types.h>
+	<time.h>
+
+1267932705 c:\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1264607636 c:\mingw\include\sfml\system\randomizer.hpp
+	<SFML/Config.hpp>
+
+1264607636 c:\mingw\include\sfml\system\sleep.hpp
+	<SFML/Config.hpp>
+
+1264607636 c:\mingw\include\sfml\system\thread.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Win32/Thread.hpp>
+	<SFML/System/Unix/Thread.hpp>
+
+1264607636 c:\mingw\include\sfml\system\win32\thread.hpp
+	<SFML/System/NonCopyable.hpp>
+	<windows.h>
+
+1264607634 c:\mingw\include\sfml\system\unix\thread.hpp
+	<SFML/System/NonCopyable.hpp>
+	<pthread.h>
+
+1264607636 c:\mingw\include\sfml\system\unicode.hpp
+	<SFML/Config.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<stdlib.h>
+	<SFML/System/Unicode.inl>
+
+1264607636 c:\mingw\include\sfml\system\unicode.inl
+
+1264607636 c:\mingw\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1264607636 c:\mingw\include\sfml\system\vector2.inl
+
+1264607636 c:\mingw\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1264607636 c:\mingw\include\sfml\system\vector3.inl
+
+1264607636 c:\mingw\include\sfml\window\context.hpp
+	<SFML/Config.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1264607636 c:\mingw\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+
+1264607636 c:\mingw\include\sfml\window\input.hpp
+	<SFML/Config.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/WindowListener.hpp>
+
+1264607636 c:\mingw\include\sfml\window\windowlistener.hpp
+	<SFML/Config.hpp>
+
+1264607636 c:\mingw\include\sfml\window\videomode.hpp
+	<SFML/Config.hpp>
+	<cstdlib>
+
+1264607636 c:\mingw\include\sfml\window\window.hpp
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Input.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowListener.hpp>
+	<SFML/Window/WindowSettings.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<queue>
+	<string>
+
+1264607636 c:\mingw\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1264607636 c:\mingw\include\sfml\window\windowsettings.hpp
+
+1264607636 c:\mingw\include\sfml\window\windowstyle.hpp
+
+1264607636 c:\mingw\include\sfml\window\opengl.hpp
+	<SFML/Config.hpp>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+
+1282952431 c:\mingw\include\gl\gl.h
+
+1282952431 c:\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1264607634 c:\mingw\include\sfml\graphics\color.hpp
+	<SFML/Config.hpp>
+
+1264607634 c:\mingw\include\sfml\graphics\font.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Unicode.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<map>
+	<string>
+
+1264607636 c:\mingw\include\sfml\system\resource.hpp
+	<set>
+	<SFML/System/Resource.inl>
+	<SFML/System/ResourcePtr.inl>
+
+1264607636 c:\mingw\include\sfml\system\resource.inl
+
+1264607636 c:\mingw\include\sfml\system\resourceptr.inl
+
+1264607634 c:\mingw\include\sfml\graphics\glyph.hpp
+	<SFML/Config.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1264607634 c:\mingw\include\sfml\graphics\rect.hpp
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1264607634 c:\mingw\include\sfml\graphics\rect.inl
+
+1268925254 c:\mingw\include\sfml\graphics\image.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1264607634 c:\mingw\include\sfml\graphics\postfx.hpp
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Image.hpp>
+	<istream>
+	<map>
+	<string>
+
+1264607634 c:\mingw\include\sfml\graphics\drawable.hpp
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Matrix3.hpp>
+
+1264607634 c:\mingw\include\sfml\graphics\matrix3.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Vector2.hpp>
+	<math.h>
+	<SFML/Graphics/Matrix3.inl>
+
+1267932702 c:\mingw\include\math.h
+	<_mingw.h>
+
+1268925256 c:\mingw\include\sfml\graphics\matrix3.inl
+
+1264607634 c:\mingw\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1264607634 c:\mingw\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1264607634 c:\mingw\include\sfml\graphics\view.hpp
+	<SFML/Config.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Matrix3.hpp>
+	<SFML/System/Vector2.hpp>
+
+1264607634 c:\mingw\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/System/Vector2.hpp>
+	<vector>
+
+1268925252 c:\mingw\include\sfml\graphics\sprite.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1264607634 c:\mingw\include\sfml\graphics\string.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/System/Unicode.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+
+1304371077 c:\users\james\desktop\planets - rewrite\common\common.hpp
+
+1304366000 source:c:\users\james\desktop\planets - rewrite\planethandler\planethandler.cpp
+	"PlanetHandler.hpp"
+	"../Planet/Planet.hpp"
+
+1304365883 c:\users\james\desktop\planets - rewrite\planethandler\planethandler.hpp
+	"../Planet/Planet.hpp"
+
+1304366917 c:\users\james\desktop\planets - rewrite\planet\planet.hpp
+	"../Image/Image.hpp"
+
+1304367105 source:c:\users\james\desktop\planets - rewrite\planet\planet.cpp
+	"Planet.hpp"
+	"../Image/Image.hpp"
+	"../PerlinNoise/Header.hpp"
+
+1304367208 c:\users\james\desktop\planets - rewrite\perlinnoise\header.hpp
+	"CosineInterpolate.hpp"
+	"Noise.hpp"
+	"Smooth.hpp"
+	"InterpolatedArray_Mem.hpp"
+	"PerlinNoise_Mem.hpp"
+
+1304367170 c:\users\james\desktop\planets - rewrite\perlinnoise\cosineinterpolate.hpp
+
+1304367400 c:\users\james\desktop\planets - rewrite\perlinnoise\noise.hpp
+
+1304367536 c:\users\james\desktop\planets - rewrite\perlinnoise\smooth.hpp
+
+1304367367 c:\users\james\desktop\planets - rewrite\perlinnoise\interpolatedarray_mem.hpp
+
+1304821561 c:\users\james\desktop\planets - rewrite\perlinnoise\perlinnoise_mem.hpp
+	<SDL.h>
+
+1304280325 source:c:\users\james\desktop\planets - rewrite\prngs\rand.cpp
+	"rand.hpp"
+	<time.h>
+	<cstdlib>
+
+1304361154 c:\users\james\desktop\planets - rewrite\prngs\rand.hpp
+
+1304365717 source:c:\users\james\desktop\planets - rewrite\ssystem\ssystem.cpp
+	"SSystem.hpp"
+	"../Prngs/Rand.hpp"
+
+1304365735 c:\users\james\desktop\planets - rewrite\ssystem\ssystem.hpp
+	"../PlanetHandler/PlanetHandler.hpp"
+	"../Common/Common.hpp"
+
+1304439744 source:c:\users\james\desktop\planets - rewrite\engine\engine.cpp
+	"Engine.hpp"
+
+1304439753 c:\users\james\desktop\planets - rewrite\engine\engine.hpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	<list>
+	"../Common/Common.hpp"
+
+1304368387 source:c:\users\james\desktop\planets - rewrite\minimap\minimap.cpp
+	"Minimap.hpp"
+	"../SSystem/SSystem.hpp"
+
+1304368180 c:\users\james\desktop\planets - rewrite\minimap\minimap.hpp
+	"../SSystem/SSystem.hpp"
+
+1304885686 source:c:\users\james\desktop\planets - rewrite\main.cpp
+	<iostream>
+	<math.h>
+	<list>
+	<cstdio>
+	<cstdlib>
+	<time.h>
+	<windows.h>
+	"Prngs/rand.hpp"
+	<SFML/graphics.hpp>
+	"Common/Common.hpp"
+	"Engine/Engine.hpp"
+	"Image/Image.hpp"
+	"Planet/Planet.hpp"
+	"PlanetHandler/PlanetHandler.hpp"
+	"SSystem/SSystem.hpp"
+	"Minimap/Minimap.hpp"
+
+1304683396 c:\mingw\include\sfml\system\err.hpp
+	<SFML/Config.hpp>
+	<ostream>
+
+1304683396 c:\mingw\include\sfml\system\string.hpp
+	<SFML/Config.hpp>
+	<locale>
+	<string>
+
+1304683396 c:\mingw\include\sfml\system\thread.inl
+
+1304683396 c:\mingw\include\sfml\system\threadlocal.hpp
+	<SFML/Config.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1304683396 c:\mingw\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1304683396 c:\mingw\include\sfml\system\threadlocalptr.inl
+
+1304683396 c:\mingw\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1304683396 c:\mingw\include\sfml\system\utf.inl
+
+1304683396 c:\mingw\include\sfml\window\glresource.hpp
+	<SFML/Config.hpp>
+
+1304683396 c:\mingw\include\sfml\window\contextsettings.hpp
+
+1304683396 c:\mingw\include\sfml\graphics\renderer.hpp
+	<SFML/Config.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Matrix3.hpp>
+
+1304683396 c:\mingw\include\sfml\graphics\renderimage.hpp
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1304683396 c:\mingw\include\sfml\graphics\shader.hpp
+	<SFML/Config.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1304683396 c:\mingw\include\sfml\graphics\text.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/System/String.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+
+1255800450 c:\mingw\include\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1255800464 c:\mingw\include\sdl_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1255800450 c:\mingw\include\sdl_platform.h
+
+1267932703 c:\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1267932702 c:\mingw\include\malloc.h
+	<_mingw.h>
+	<stdlib.h>
+
+1267932702 c:\mingw\include\memory.h
+	<string.h>
+
+1267932703 c:\mingw\include\strings.h
+	<string.h>
+
+1267932701 c:\mingw\include\inttypes.h
+	<_mingw.h>
+	<stdint.h>
+	<stddef.h>
+
+1267932703 c:\mingw\include\stdint.h
+	<stddef.h>
+
+1267932700 c:\mingw\include\ctype.h
+	<_mingw.h>
+	<stddef.h>
+
+1248569180 c:\mingw\include\iconv.h
+	"iconv.h"
+	<stddef.h>
+	<errno.h>
+	<stddef.h>
+	<stdio.h>
+	<time.h>
+	<wchar.h>
+
+1267932704 c:\mingw\include\wchar.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<wctype.h>
+	<sys/types.h>
+	<stdint.h>
+	<stdint.h>
+
+1267932704 c:\mingw\include\wctype.h
+	<_mingw.h>
+	<stddef.h>
+
+1255800450 c:\mingw\include\begin_code.h
+
+1255800450 c:\mingw\include\close_code.h
+
+1255800450 c:\mingw\include\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1267932702 c:\mingw\include\process.h
+	<_mingw.h>
+	<sys/types.h>
+	<stdint.h>
+
+1255800450 c:\mingw\include\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_keysym.h
+
+1255800450 c:\mingw\include\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1255800450 c:\mingw\include\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1255800450 c:\mingw\include\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
