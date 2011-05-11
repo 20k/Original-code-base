@@ -34,10 +34,11 @@
 		</Compiler>
 		<Linker>
 			<Add option="-lmingw32" />
-			<Add option="-lsfml-audio" />
-			<Add option="-lsfml-graphics" />
-			<Add option="-lsfml-network" />
-			<Add option="-lsfml-window" />
+			<Add option="-lsfml-audio-s-d" />
+			<Add option="-lsfml-graphics-s-d" />
+			<Add option="-lsfml-network-s-d" />
+			<Add option="-lsfml-window-s-d" />
+			<Add option="-lsfml-system-s-d" />
 			<Add option="-luser32" />
 			<Add option="-lgdi32" />
 			<Add option="-lwinmm" />
@@ -45,19 +46,6 @@
 			<Add option="-lglu32" />
 			<Add option="-lglew32" />
 			<Add option="-lopengl32" />
-			<Add library="mingw32" />
-			<Add library="sfml-audio" />
-			<Add library="sfml-graphics" />
-			<Add library="sfml-network" />
-			<Add library="sfml-system" />
-			<Add library="sfml-window" />
-			<Add library="user32" />
-			<Add library="gdi32" />
-			<Add library="winmm" />
-			<Add library="dxguid" />
-			<Add library="C:\MinGW\lib\libglu32.a" />
-			<Add library="C:\MinGW\lib\libglew32.a" />
-			<Add library="C:\MinGW\lib\libopengl32.a" />
 			<Add directory="C:\MinGW\lib" />
 		</Linker>
 		<Unit filename="Common\Common.hpp" />

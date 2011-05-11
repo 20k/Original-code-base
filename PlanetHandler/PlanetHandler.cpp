@@ -10,8 +10,8 @@
     }
 
     void PlanetHandler::updateimage(){
-    planet.image.Dest.x=x;
-    planet.image.Dest.y=y;
+        planet.image.Dest.x=x;
+        planet.image.Dest.y=y;
 
     }
 

@@ -86,7 +86,9 @@ public:
 
         Planet(std::string pname,double pRadius, int px, int py, int pAtmosphereWidth, int pshinex, int pshiney, Limits pL1, Limits pL2, Limits pL3, DescA pAtmosphere, int minx, int maxx, int miny, int maxy, double **pdata=NULL, int pass=0);
 
-         ~Planet();
+        ~Planet();
+
+        load_from_file(std::string pname);
 
         void SetRXY(int a, int b);
 

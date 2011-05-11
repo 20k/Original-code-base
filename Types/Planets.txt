@@ -1,0 +1,21 @@
+GasGiant
+Atmosphere
+255
+0xff0044
+25
+0x0033ff
+0
+0x334411
+0 Haze
+0 Atmosphere
+0 pr
+0 pg
+0 pb
+0 psun?
+2 ptype
+-4 x
+4 x
+-2 y
+2 y
+
+

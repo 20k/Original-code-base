@@ -43,6 +43,59 @@
 
         }
 
+        Planet::load_from_file(std::string pname){
+            FILE *P=fopen(pname.c_str(), "r");
+            if(P==NULL){
+                exit(13313);
+            }
+            char *string = new char[100];
+
+            Arglist R;
+            R.name=fgets(string, 100, P);
+            R.atmosphere=fgets(string, 100, P);
+
+
+            R.l1.limit=fgets(string, 100, P);
+
+
+            int B=atoi(fgets(string, 100, P));
+            R.l1.col.r=B>>4;
+            R.l1.col.g=((B<<2)>>2)>>2;
+            R.l1.col.b=((B<<4)>>4);
+
+            R.l2.limit=fgets(string, 100, P);
+
+
+            B=atoi(fgets(string, 100, P));
+            R.l2.col.r=B>>4;
+            R.l2.col.g=((B<<2)>>2)>>2;
+            R.l2.col.b=((B<<4)>>4);
+
+             R.l3.limit=fgets(string, 100, P);
+
+
+            B=atoi(fgets(string, 100, P));
+            R.l3.col.r=B>>4;
+            R.l3.col.g=((B<<2)>>2)>>2;
+            R.l3.col.b=((B<<4)>>4);
+
+            ///DescA(int pHaze, int pAtmosphere, int pr, int pg, int pb, int psun, int ptype){
+
+
+
+
+
+
+
+
+
+
+
+
+            delete [] String;
+
+        }
+
         double Planet::average_square(int x, int y,int xsize, int ysize) {
 
                 double Total=0, Count=0;
